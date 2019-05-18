@@ -4,6 +4,7 @@ import sys
 
 if len(sys.argv) != 3: # Parsing line arguments to get bind ip and bind port
     print(f"Usage: {sys.argv[0]} BIND_IP BIND_PORT")
+    sys.exit()
 
 BIND_IP = sys.argv[1]
 
